@@ -69,7 +69,6 @@ bool DoublyLinkedList::insert_front(DataType value)
 		front -> next = nullptr;
 		head_ = front;
 		tail_ = front;
-		cout << "this should happen";
 	}
 	else
 	{
@@ -149,7 +148,7 @@ bool DoublyLinkedList::remove_back()
 
 bool DoublyLinkedList::insert(DataType value, unsigned int index)
 {
-	if  (full() || index > size_)//is it okay if it's larger than size?
+	if  (full() || index > size_)
 		return false;
 	if(index == 0)
 		insert_front(value);
@@ -162,11 +161,10 @@ bool DoublyLinkedList::insert(DataType value, unsigned int index)
 		{
 			to_change = to_change -> next;
 		}
-		cout << "\nthis is the to_change value" << to_change->value << endl;
-		Node* insert = new Node(value); //need to fix something here
+		Node* insert = new Node(value);
 		insert -> prev = to_change -> prev;
 		insert -> next = to_change;
-		to_change -> prev -> next = insert; //order of this and the one below matters
+		to_change -> prev -> next = insert;
 		to_change -> prev = insert;
 	}
 	size_++;

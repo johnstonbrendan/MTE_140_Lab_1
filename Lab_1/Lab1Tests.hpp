@@ -98,15 +98,10 @@ public:
     bool test3()
     {
         DoublyLinkedList list;
-        list.print();
         ASSERT_TRUE(list.insert_front(100))
-        list.print();
         ASSERT_TRUE(list.insert_front(101))
-        list.print();
         ASSERT_TRUE(list.remove_front())
-        list.print();
         ASSERT_TRUE(list.remove_back())
-		list.print();
         ASSERT_TRUE(list.search(100) == list.size_)
         ASSERT_TRUE(list.head_ == NULL && list.tail_ == NULL)
 
