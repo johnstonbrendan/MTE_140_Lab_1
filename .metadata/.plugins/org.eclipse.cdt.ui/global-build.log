@@ -94,3 +94,36 @@ collect2.exe: error: ld returned 1 exit status
 13:15:04 **** Incremental Build of configuration Debug for project Lab_1 ****
 Info: Internal Builder is used for build
 g++ -o Lab_1.exe DoublyLinkedList.o SequentialList.o main.o 
+11:00:17 **** Incremental Build of configuration Debug for project Lab_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DoublyLinkedList.o "..\\DoublyLinkedList.cpp" 
+In file included from ..\DoublyLinkedList.cpp:1:0:
+..\DoublyLinkedList.hpp: In member function 'DoublyLinkedList& DoublyLinkedList::operator=(const DoublyLinkedList&)':
+..\DoublyLinkedList.hpp:94:63: warning: no return statement in function returning non-void [-Wreturn-type]
+     DoublyLinkedList& operator=(const DoublyLinkedList& rhs) {}
+                                                               ^
+..\DoublyLinkedList.cpp: In member function 'bool DoublyLinkedList::remove(unsigned int)':
+..\DoublyLinkedList.cpp:178:16: error: 'value' was not declared in this scope
+   remove_front(value);
+                ^~~~~
+..\DoublyLinkedList.cpp:180:15: error: 'value' was not declared in this scope
+   remove_back(value);
+               ^~~~~
+11:00:38 **** Incremental Build of configuration Debug for project Lab_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DoublyLinkedList.o "..\\DoublyLinkedList.cpp" 
+In file included from ..\DoublyLinkedList.cpp:1:0:
+..\DoublyLinkedList.hpp: In member function 'DoublyLinkedList& DoublyLinkedList::operator=(const DoublyLinkedList&)':
+..\DoublyLinkedList.hpp:94:63: warning: no return statement in function returning non-void [-Wreturn-type]
+     DoublyLinkedList& operator=(const DoublyLinkedList& rhs) {}
+                                                               ^
+g++ -o Lab_1.exe DoublyLinkedList.o SequentialList.o main.o 
+11:09:15 **** Incremental Build of configuration Debug for project Lab_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DoublyLinkedList.o "..\\DoublyLinkedList.cpp" 
+In file included from ..\DoublyLinkedList.cpp:1:0:
+..\DoublyLinkedList.hpp: In member function 'DoublyLinkedList& DoublyLinkedList::operator=(const DoublyLinkedList&)':
+..\DoublyLinkedList.hpp:94:63: warning: no return statement in function returning non-void [-Wreturn-type]
+     DoublyLinkedList& operator=(const DoublyLinkedList& rhs) {}
+                                                               ^
+g++ -o Lab_1.exe DoublyLinkedList.o SequentialList.o main.o 

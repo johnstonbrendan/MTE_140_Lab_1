@@ -84,7 +84,7 @@ bool DoublyLinkedList::insert_front(DataType value)
 
 bool DoublyLinkedList::remove_front()
 {
-	if (full())
+	if (empty())
 		return false;
 	if (size_ == 1)
 	{
@@ -96,6 +96,7 @@ bool DoublyLinkedList::remove_front()
 	{
 		Node* temp = head_ -> next;
 		delete head_;
+		temp -> prev = nullptr;
 		head_ = temp;
 	}
 	size_--;
@@ -140,6 +141,7 @@ bool DoublyLinkedList::remove_back()
 	{
 		Node* temp = tail_ -> prev;
 		delete tail_;
+		temp -> next = nullptr;
 		tail_ = temp;
 	}
 	size_--;
@@ -174,6 +176,10 @@ bool DoublyLinkedList::remove(unsigned int index)
 {
 	if (size_ <= 0 || index >= size_)
 		return false;
+	if(index == 0)
+		remove_front();
+	else if (index == size_ - 1)
+		remove_back();
 	Node* to_remove = head_;
 	for(unsigned int i = 0; i < index; i++)
 	{
