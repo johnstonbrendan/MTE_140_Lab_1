@@ -127,3 +127,216 @@ In file included from ..\DoublyLinkedList.cpp:1:0:
      DoublyLinkedList& operator=(const DoublyLinkedList& rhs) {}
                                                                ^
 g++ -o Lab_1.exe DoublyLinkedList.o SequentialList.o main.o 
+Info: Nothing to build for Lab_1
+15:36:32 **** Incremental Build of configuration Debug for project Lab_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DoublyLinkedList.o "..\\DoublyLinkedList.cpp" 
+In file included from ..\DoublyLinkedList.cpp:1:0:
+..\DoublyLinkedList.hpp: In member function 'DoublyLinkedList& DoublyLinkedList::operator=(const DoublyLinkedList&)':
+..\DoublyLinkedList.hpp:94:63: warning: no return statement in function returning non-void [-Wreturn-type]
+     DoublyLinkedList& operator=(const DoublyLinkedList& rhs) {}
+                                                               ^
+g++ -o Lab_1.exe DoublyLinkedList.o SequentialList.o main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: i386 architecture of input file `SequentialList.o' is incompatible with i386:x86-64 output
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: i386 architecture of input file `main.o' is incompatible with i386:x86-64 output
+SequentialList.o: In function `SequentialList::SequentialList(unsigned int)':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:19: undefined reference to `___cxa_throw_bad_array_new_length'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:19: undefined reference to `__Znaj'
+SequentialList.o: In function `SequentialList::~SequentialList()':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:26: undefined reference to `__ZdaPv'
+SequentialList.o: In function `SequentialList::print() const':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:51: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:51: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:54: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:54: undefined reference to `__ZNSolsEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:56: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:56: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:58: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../SequentialList.cpp:58: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+SequentialList.o: In function `__tcf_0':
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream:74: undefined reference to `__ZNSt8ios_base4InitD1Ev'
+SequentialList.o: In function `__static_initialization_and_destruction_0':
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream:74: undefined reference to `__ZNSt8ios_base4InitC1Ev'
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream:74: undefined reference to `_atexit'
+main.o: In function `get_status_str[abi:cxx11](bool)':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:10: undefined reference to `__ZNSaIcEC1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:10: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:10: undefined reference to `__ZNSaIcED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:10: undefined reference to `__ZNSaIcED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:10: undefined reference to `__Unwind_Resume'
+main.o: In function `main':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:14: undefined reference to `___main'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:26: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:26: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:26: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:26: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:27: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:27: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:27: undefined reference to `__ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:27: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:27: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:27: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:28: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:28: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:28: undefined reference to `__ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:28: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:28: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:28: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:29: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:29: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:29: undefined reference to `__ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:29: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:29: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:29: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:30: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:30: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:30: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:31: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:31: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:31: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:31: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:32: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:32: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:32: undefined reference to `__ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:32: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:32: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:32: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:33: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:33: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:33: undefined reference to `__ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:33: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:33: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:33: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:34: undefined reference to `__ZSt4cout'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:34: undefined reference to `__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:34: undefined reference to `__ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:34: undefined reference to `__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:34: undefined reference to `__ZNSolsEPFRSoS_E'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:34: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:36: undefined reference to `_system'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:27: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:27: undefined reference to `__Unwind_Resume'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:28: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:28: undefined reference to `__Unwind_Resume'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:29: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:29: undefined reference to `__Unwind_Resume'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:32: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:32: undefined reference to `__Unwind_Resume'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:33: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:33: undefined reference to `__Unwind_Resume'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:34: undefined reference to `__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../main.cpp:34: undefined reference to `__Unwind_Resume'
+main.o: In function `__tcf_0':
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream:74: undefined reference to `__ZNSt8ios_base4InitD1Ev'
+main.o: In function `__static_initialization_and_destruction_0':
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream:74: undefined reference to `__ZNSt8ios_base4InitC1Ev'
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream:74: undefined reference to `_atexit'
+main.o: In function `SequentialListTest::test1()':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:16: undefined reference to `__Unwind_Resume'
+main.o: In function `SequentialListTest::test2()':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:28: undefined reference to `__Unwind_Resume'
+main.o: In function `SequentialListTest::test3()':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:43: undefined reference to `__Unwind_Resume'
+main.o: In function `DoublyLinkedListTest::test1()':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:74: undefined reference to `__ZN16DoublyLinkedListC1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:75: undefined reference to `__ZNK16DoublyLinkedList4sizeEv'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:76: undefined reference to `__ZNK16DoublyLinkedList5emptyEv'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:77: undefined reference to `__ZNK16DoublyLinkedList4fullEv'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:74: undefined reference to `__ZN16DoublyLinkedListD1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:74: undefined reference to `__ZN16DoublyLinkedListD1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:74: undefined reference to `__Unwind_Resume'
+main.o: In function `DoublyLinkedListTest::test2()':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:85: undefined reference to `__ZN16DoublyLinkedListC1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:85: undefined reference to `__ZN16DoublyLinkedListC1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:86: undefined reference to `__ZN16DoublyLinkedList12insert_frontEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:87: undefined reference to `__ZN16DoublyLinkedList11insert_backEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:89: undefined reference to `__ZNK16DoublyLinkedList4sizeEv'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:89: undefined reference to `__ZNK16DoublyLinkedList4sizeEv'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:89: undefined reference to `__ZNK16DoublyLinkedList4sizeEv'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:85: undefined reference to `__ZN16DoublyLinkedListD1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:85: undefined reference to `__ZN16DoublyLinkedListD1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:85: undefined reference to `__ZN16DoublyLinkedListD1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:85: undefined reference to `__ZN16DoublyLinkedListD1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:85: undefined reference to `__Unwind_Resume'
+main.o: In function `DoublyLinkedListTest::test3()':
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:100: undefined reference to `__ZN16DoublyLinkedListC1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:101: undefined reference to `__ZN16DoublyLinkedList12insert_frontEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:102: undefined reference to `__ZN16DoublyLinkedList12insert_frontEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:103: undefined reference to `__ZN16DoublyLinkedList12remove_frontEv'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:104: undefined reference to `__ZN16DoublyLinkedList11remove_backEv'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:105: undefined reference to `__ZNK16DoublyLinkedList6searchEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:111: undefined reference to `__ZN16DoublyLinkedList11insert_backEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:115: undefined reference to `__ZNK16DoublyLinkedList6selectEj'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:115: undefined reference to `__ZNK16DoublyLinkedList6searchEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:116: undefined reference to `__ZNK16DoublyLinkedList6searchEi'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:120: undefined reference to `__ZNK16DoublyLinkedList6selectEj'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:100: undefined reference to `__ZN16DoublyLinkedListD1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:100: undefined reference to `__ZN16DoublyLinkedListD1Ev'
+C:\Users\johns\Desktop\1B\MTE 140 - Algorithms and Data Stuctures\Labs\MTE_140_Lab_1\Lab_1\Debug/../Lab1Tests.hpp:100: undefined reference to `__Unwind_Resume'
+main.o:main.cpp:(.eh_frame$_ZN18SequentialListTest5test1Ev+0x13): undefined reference to `___gxx_personality_v0'
+main.o:main.cpp:(.eh_frame$_ZN18SequentialListTest5test2Ev+0x13): undefined reference to `___gxx_personality_v0'
+main.o:main.cpp:(.eh_frame$_ZN18SequentialListTest5test3Ev+0x13): undefined reference to `___gxx_personality_v0'
+main.o:main.cpp:(.eh_frame$_ZN20DoublyLinkedListTest5test1Ev+0x13): undefined reference to `___gxx_personality_v0'
+main.o:main.cpp:(.eh_frame$_ZN20DoublyLinkedListTest5test2Ev+0x13): undefined reference to `___gxx_personality_v0'
+main.o:main.cpp:(.eh_frame$_ZN20DoublyLinkedListTest5test3Ev+0x13): more undefined references to `___gxx_personality_v0' follow
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o):crt0_c.c:(.text.startup+0x2e): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+16:39:29 **** Rebuild of configuration Debug for project Lab_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+In file included from ..\Lab1Tests.hpp:7:0,
+                 from ..\main.cpp:5:
+..\DoublyLinkedList.hpp: In member function 'DoublyLinkedList& DoublyLinkedList::operator=(const DoublyLinkedList&)':
+..\DoublyLinkedList.hpp:94:63: warning: no return statement in function returning non-void [-Wreturn-type]
+     DoublyLinkedList& operator=(const DoublyLinkedList& rhs) {}
+                                                               ^
+In file included from ..\Lab1Tests.hpp:8:0,
+                 from ..\main.cpp:5:
+..\SequentialList.hpp: In member function 'SequentialList& SequentialList::operator=(const SequentialList&)':
+..\SequentialList.hpp:111:59: warning: no return statement in function returning non-void [-Wreturn-type]
+     SequentialList& operator=(const SequentialList& rhs) {}
+                                                           ^
+In file included from ..\main.cpp:5:0:
+..\Lab1Tests.hpp: In member function 'bool SequentialListTest::test3()':
+..\Lab1Tests.hpp:52:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i = 0; i < capacity; i++) {
+                         ~~^~~~~~~~~~
+..\Lab1Tests.hpp:61:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int i = 0; i < capacity; i++) {
+                         ~~^~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DoublyLinkedList.o "..\\DoublyLinkedList.cpp" 
+In file included from ..\DoublyLinkedList.cpp:1:0:
+..\DoublyLinkedList.hpp: In member function 'DoublyLinkedList& DoublyLinkedList::operator=(const DoublyLinkedList&)':
+..\DoublyLinkedList.hpp:94:63: warning: no return statement in function returning non-void [-Wreturn-type]
+     DoublyLinkedList& operator=(const DoublyLinkedList& rhs) {}
+                                                               ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SequentialList.o "..\\SequentialList.cpp" 
+In file included from ..\SequentialList.cpp:12:0:
+..\SequentialList.hpp: In member function 'SequentialList& SequentialList::operator=(const SequentialList&)':
+..\SequentialList.hpp:111:59: warning: no return statement in function returning non-void [-Wreturn-type]
+     SequentialList& operator=(const SequentialList& rhs) {}
+                                                           ^
+..\SequentialList.cpp: In member function 'void SequentialList::print() const':
+..\SequentialList.cpp:52:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0; i < size_; i++)
+                    ~~^~~~~~~
+..\SequentialList.cpp:55:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(i != size_-1)
+            ~~^~~~~~~~~~
+..\SequentialList.cpp: In member function 'bool SequentialList::insert(SequentialList::DataType, unsigned int)':
+..\SequentialList.cpp:88:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = index; i <= size_; i++)
+                        ~~^~~~~~~~
+..\SequentialList.cpp:86:14: warning: unused variable 'temp' [-Wunused-variable]
+     DataType temp;
+              ^~~~
+..\SequentialList.cpp: In member function 'bool SequentialList::remove(unsigned int)':
+..\SequentialList.cpp:102:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = index; i < size_-1; i++)
+                        ~~^~~~~~~~~
+..\SequentialList.cpp: In member function 'unsigned int SequentialList::search(SequentialList::DataType) const':
+..\SequentialList.cpp:112:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0; i < size_; i++)
+                    ~~^~~~~~~
+g++ -o Lab_1.exe DoublyLinkedList.o SequentialList.o main.o 
+Info: Nothing to build for Lab_1

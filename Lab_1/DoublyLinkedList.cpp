@@ -154,7 +154,7 @@ bool DoublyLinkedList::insert(DataType value, unsigned int index)
 		return false;
 	if(index == 0)
 		insert_front(value);
-	else if (index == size_ - 1)
+	else if (index == size_)
 		insert_back(value);
 	else
 	{
@@ -178,7 +178,7 @@ bool DoublyLinkedList::remove(unsigned int index)
 		return false;
 	if(index == 0)
 		remove_front();
-	else if (index == size_ - 1)
+	else if (index == size_)
 		remove_back();
 	Node* to_remove = head_;
 	for(unsigned int i = 0; i < index; i++)
